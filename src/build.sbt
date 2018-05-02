@@ -12,5 +12,7 @@ libraryDependencies ++= Seq(
   cache,
   ws,
   "org.scalatestplus.play" %% "scalatestplus-play" % "1.5.1" % Test,
-  evolutions
+  evolutions,
+  "com.google.code.gson" % "gson" % "2.3.1",
+
 )
