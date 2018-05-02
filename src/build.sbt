@@ -8,11 +8,9 @@ scalaVersion := "2.11.7"
 
 libraryDependencies ++= Seq(
   jdbc,
+  "mysql" % "mysql-connector-java" % "5.1.38",
   cache,
   ws,
-  "com.typesafe.play" %% "play-slick" % "2.0.2",
-  "com.typesafe.play" %% "play-slick-evolutions" % "2.0.2",
   "org.scalatestplus.play" %% "scalatestplus-play" % "1.5.1" % Test,
-  "mysql" % "mysql-connector-java" % "5.7.17"
+  evolutions
 )
-
