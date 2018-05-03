@@ -13,11 +13,17 @@
         <title>@title</title>
         <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")">
         <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
         <script src="@routes.Assets.versioned("javascripts/hello.js")" type="text/javascript"></script>
     </head>
     <body>
-        @* And here's where we render the `Html` object containing
-         * the page content. *@
-        @content
+　　　　<div class="main">
+         <div class="discriptions"></div>
+         <div class="infomation" id="form">
+           <form>
+
+           </form>
+         </div>
+       </div>
     </body>
 </html>
