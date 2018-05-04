@@ -16,5 +16,3 @@ libraryDependencies ++= Seq(
   "com.google.code.gson" % "gson" % "2.3.1",
   "com.adrianhurt" %% "play-bootstrap" % "1.0-P25-B4-SNAPSHOT"
 )
-
-resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots/"
